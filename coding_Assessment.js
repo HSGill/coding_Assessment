@@ -1,3 +1,8 @@
+/** 
+*AUTHOR: Harry Gill
+*Description:Program that reads a file of text fragments and attempts to reconstruct the original document out of the fragments
+*Date: 19/07/2020
+*/
 function shortestSuperstring(fragments) {
     while (fragments.length > 1) {
         let maxOverlapLength = 0;
