@@ -54,6 +54,11 @@ var checkCommonPair = function (s1, s2) {
             }
         }
     }
+    /** Checks fragment s2 is contained within s1 */
+    if (s1.indexOf(s2) >=0) {
+        commonString = s1;
+        maxCommonLength = s1.length;
+      }
     return {
         commonLength: maxOverlapLength,
         commonString,
